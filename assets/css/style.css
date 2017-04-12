@@ -11,6 +11,7 @@ body{
 #header {
 	width:100%;
 	height:80px;
+	z-index: 10;
 	position:fixed;
 	background-color:#ffffff;
 	border:2px solid #eee;
@@ -62,7 +63,6 @@ li {
 #main_content {
 	float:left;
 	position:relative;
-	z-index: -1;
 	margin-top:120px;
 	margin-left:100px;
 	margin-bottom:40px;
@@ -104,14 +104,38 @@ p {
 }
 
 /*----styles (Portfolio page only) main content----*/
-.portfolio_image {
-	padding:20px;
-	margin:20px;
-}
 #portfolio_images {
 	margin-left:20px;
 }
-
+.portfolio_image {
+	padding:20px;
+	margin:20px;
+	width:200px;
+	height:200px;
+}
+.project {
+	position:relative;
+}
+.left,
+.right {
+	height:60px;
+	width:200px;
+	background-color:#cc5500;
+	position:absolute;
+	bottom:60px;
+	right:40px;
+	text-align:center;
+	opacity:.75;
+}
+.right {
+	left:40px;
+}
+h6 {
+	font-size:20px;
+	margin-top:20px;
+	color:#ffffff;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
 /*----styles (Contact page only) main content----*/
 form {
 	margin-left:20px;
@@ -200,7 +224,7 @@ h4 {
 
 }
 /*----(sticky footer)----*/
-.site {
+#viewport {
 	display:flex;
 	min-height: 100vh;
 	flex-direction: column;
