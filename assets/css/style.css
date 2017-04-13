@@ -14,7 +14,7 @@ body{
 	z-index: 10;
 	position:fixed;
 	background-color:#ffffff;
-	border:2px solid #eee;
+	border:2px solid #cccccc;
 	font-family:'Georgia', Times, serif;
 }
 /*----styles (name tag)----*/
@@ -27,7 +27,7 @@ h1 {
 	font-weight:bold;
 	position:absolute;
 	left:100px;
-	background-color:#cc5500;
+	background-color:#4aaaa5;
 	color:#ffffff;
 }
 /*----styles (nav bar)----*/
@@ -36,11 +36,12 @@ h1 {
 	top:30px;
 	display:inline;
 	position:absolute;
+	opacity: .75;
 	
 }
 a {
 	text-decoration:none;
-	color:#cc5500
+	color:#777777
 }
 li {
 	float:left;
@@ -84,7 +85,7 @@ h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-weight: bold;
 	font-size:32px;
-	color:#cc5500;
+	color:#4aaaa5;
 }
 
 /*----styles (About page only-main content)----*/
@@ -97,6 +98,7 @@ h2 {
 }
 
 p {
+	color:#7777777;
 	margin-left:20px;
 	margin-right:20px;
 	line-height: 2;
@@ -120,7 +122,7 @@ p {
 .right {
 	height:60px;
 	width:200px;
-	background-color:#cc5500;
+	background-color:#4aaaa5;
 	position:absolute;
 	bottom:60px;
 	right:40px;
@@ -154,7 +156,7 @@ textarea {
 	height:20px;
 }
 #Submit {
-	background-color:#cc5500;
+	background-color:#4aaaa5;
 	color:#ffffff;
 	padding:10px 20px;
 	margin-top:20px;
@@ -202,22 +204,23 @@ h3 {
 	padding:30px 0px;
 	border-bottom: 2px solid #ccc;
 	margin-left:30px;
-	color:#cc5500;
+	color:#4aaaa5;
 }
 /*--------end of [sidebar] styling--------*/
 
 /*--------styles [footer]--------*/
 #footer {
-	background-color:#968c81;
+	background-color:#666666;
 	width:100%;
 	height:80px;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	border-top:5px solid #cc5500;
+	border-top:5px solid #4aaaa5;
 }
 
 /*----styles (copywright)----*/
 h4 {
-	color:#cc5500;
+	color:#ffffff;
+	opacity: .75;
 	font-size:12px;
 	text-align:center;
 	margin-top:30px;
